@@ -1,0 +1,75 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #dce6f7; /* color suave */
+    padding: 20px;
+}
+.tarjeta {
+    width: 320px;
+    background-color: rgb(231, 189, 245);
+    border: 2px solid #c38ac8; /* borde visible */
+    border-radius: 10px;
+    padding: 15px; /* modelo de caja */
+    margin: 0 auto;
+}
+.tarjeta img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    display: block;
+    margin: 0 auto;
+    border: 2px solid #b78ac8;
+}
+.tarjeta h2 {
+    text-align: center;
+    margin-top: 10px;
+}
+.tarjeta h3 {
+    text-align: center;
+    font-size: 15px;
+    color: #555;
+}
+.descripcion {
+    font-size: 14px;
+    margin-top: 15px;
+}
+.tags {
+    margin-top: 15px;
+}
+.tag {
+    display: inline-block;
+    background-color: #ffe0f5;
+    padding: 5px 10px;
+    border-radius: 8px;
+    margin: 3px;
+    font-size: 13px;
+    border: 1px solid #e1b2ea;
+}
+.contacto {
+    background-color: #f092dc;
+    padding: 10px;
+    border-radius: 8px;
+    margin-top: 15px;
+    border: 1px solid #eb73e1;
+}
+.contacto p {
+    margin: 5px 0;
+}
+.boton {
+    width: 100%;
+    padding: 10px;
+    margin-top: 15px;
+    background-color: #d45bd8;
+    color: rgb(249, 249, 249);
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+}
+.boton:hover {
+    background-color: #3a59a8;
+}
+.footer {
+    text-align: center;
+    font-size: 12px;
+    margin-top: 10px;
+    color: #666;
+}
